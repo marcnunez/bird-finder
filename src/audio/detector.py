@@ -1,5 +1,6 @@
 import tflite_runtime.interpreter as tflite
-import numpy as np, librosa
+import numpy as np
+import librosa
 
 class AudioBirdDetector:
     def __init__(self, model_path):
